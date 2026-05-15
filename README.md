@@ -10,7 +10,7 @@ The first vertical site in the 100-fishing-lines portfolio. Built 2026-05-14 (Ja
 
 ## What this site is
 
-Tantra Authority is the **practical, SEO-friendly, educational** front door to Lawrence Lanoff's tantra body of work. It is NOT the personal Substack. It is the authoritative, depersonalized destination for people who type "what is tantra" or "tantric breathing exercises" into Google.
+Tantra Authority is the **practical, SEO-friendly, educational** front door to Lawrence Gregory's tantra body of work. It is NOT the personal Substack. It is the authoritative, depersonalized destination for people who type "what is tantra" or "tantric breathing exercises" into Google.
 
 **Persona:** The Tantra Authority Editors. Bylineless in most cases. Calm, authoritative, anti-bullshit, body-grounded.
 
