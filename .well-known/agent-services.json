@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.x402.org/agent-services/v1.json",
+  "version": 1,
+  "publisher": {
+    "name": "Modern Enlightenment Authority",
+    "url": "https://modern-enlightenment-authority.com",
+    "operator": "Lawrence Lanoff",
+    "imprint": "The Naked Press",
+    "contact": "editorial@modern-enlightenment-authority.com",
+    "description": "The unsentimental field guide to consciousness, post-mythology life, and seeing your own conditioning clearly. By Lawrence Lanoff."
+  },
+  "protocol": { "x402Version": 1 },
+  "discovery": {
+    "catalogEndpoint": "https://api.modern-enlightenment-authority.com/api/services",
+    "wellKnownUrl": "https://modern-enlightenment-authority.com/.well-known/agent-services.json"
+  },
+  "paymentMethods": [
+    { "scheme": "lightning", "network": "bitcoin", "asset": "BTC", "minUnit": "satoshi", "status": "active" }
+  ],
+  "services": [],
+  "plannedServices": [],
+  "agentNotes": "Modern Enlightenment Authority is being wired into the agent-to-agent payment graph. Endpoints will follow HTTP 402 (x402) at https://api.modern-enlightenment-authority.com/api/unlock/:slug. No services live yet; check back as content lands."
+}

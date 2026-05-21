@@ -1,127 +1,130 @@
-# Tantra Authority
+# Modern Enlightenment Authority
 
-The first vertical site in the 100-fishing-lines portfolio. Built 2026-05-14 (Japan) as the per-vertical template prototype.
+The third vertical in the franchise. Cloned from `tantra-authority/` template 2026-05-15.
 
-**Live target:** `tantraauthority.com` (owned by Lawrence, Cloudflare DNS)
-**Backup domain:** `tantra-authority.com` (redirect → primary)
-**Deploy via:** Cloudflare Pages (see `DEPLOY.md`)
+**Live target:** `4hourenlightenment.com` (owned, DNS already pointed at hosting IP)
+**Alternative primary candidates:** `spiritualshortcut.com`, `enlightenmenthacker.com`, `spiritualityhacker.com`, `deprogramyourlife.com` — all owned by Lawrence
+**Maps to book:** *Beyond the Myth: The Anatomy of Modern Enlightenment* (book 6 in the stack)
+**Maps to substack:** Posts 1–7 of The Naked Mind arc are already directly on-topic
 
 ---
 
 ## What this site is
 
-Tantra Authority is the **practical, SEO-friendly, educational** front door to Lawrence Gregory's tantra body of work. It is NOT the personal Substack. It is the authoritative, depersonalized destination for people who type "what is tantra" or "tantric breathing exercises" into Google.
+Modern Enlightenment Authority is the **practical, SEO-friendly, anti-guru** front door to the consciousness / enlightenment / awakening body of work in the Beyond the Myth series. The site exists to demolish the mythology around "enlightenment" — the industry of it, the gurus selling it, the certificates being awarded, the language of attainment, the costumes of the awakened. What's left after the demolition is a clear, body-grounded, falsifiable practice that an adult can actually run without joining anything or anyone.
 
-**Persona:** The Tantra Authority Editors. Bylineless in most cases. Calm, authoritative, anti-bullshit, body-grounded.
+This vertical has the **largest defensive domain cluster** of any in the portfolio: 17+ owned domains in the enlightenment / awakening / hacker space all funnel here.
 
-**NOT this voice:**
-- Not the punk-philosophical Naked Mind voice
-- Not Lawrence speaking in first-person about his own life (most articles)
-- Not edgy / Tantra Rebel voice
-- Not certificate-program / weekend-mill / cult-recruiting voice
-- Not Sanskrit-heavy / mystically-decorated
+**Persona:** The Modern Enlightenment Authority Editors. Bylineless. Calm, authoritative, anti-cult, body-grounded, with the most direct anti-guru position of any vertical.
 
-**IS this voice:**
-- Educational. Patient. Confident.
-- Stripped of mythology while honoring the practices
-- Physiologically grounded ("here's what's actually happening in your body")
-- Anti-fake-guru, anti-cult (explicitly) — but PRO real teachers, real workshops, real coaching, real commerce
-- Generally written in third person about the field
-- Funnels to *Beyond the Myth: The Definitive Guide to Modern Tantra* + The Naked Mind newsletter + the vetted practitioner directory + the shop
+**Voice rules — same as Tantra Authority** (see `code/verticals/tantra-authority/README.md` for the canonical brand brief). Topic-specific delta below.
 
-## Anti-fake-guru, NOT anti-money (course-correction 2026-05-15)
+## Topic-specific voice notes — the strongest editorial stance in the franchise
 
-Earlier drafts had a tone that read as anti-workshop and anti-commerce categorically. **This is wrong and load-bearing to fix.** The actual editorial stance:
+**The unique position of this site:** Lawrence is, by his own framing, the "n of 1" — has never met another verifiably enlightened person; names Tolle, Deida, and most major spiritual teachers as either lying, deluded, or criminal. The Modern Enlightenment Authority editorial voice carries that stance into the third-person Editor voice without softening it.
 
-| We DO | We DON'T |
-|---|---|
-| Sell books (royalty, KDP, audiobook) | Sell weekend certification programs |
-| Run occasional retreats — the kind that's meditating, cooking, laughing, real practice, not certification-mills | Run cult-style "level two" / "level three" upsell tracks |
-| Offer high-end coaching (1:1, small group, expensive, no scale games) | Run paid private communities you must keep paying to stay inside |
-| List vetted practitioners — sex workers, tantric massage practitioners, somatic guides — with full transparency about their lineage, training, and any cult/guru affiliations | Hide a practitioner's training history or whitewash their teacher's record |
-| Sell products — books, ethical sex toys (affiliate), print-on-demand (Etsy/Shopify), supplements where evidence supports them | Sell mystified products with manufactured spiritual claims |
-| Affiliate to credible adult-industry, wellness, and bookseller links | Affiliate to MLM-style spiritual product schemes |
-| Acknowledge that a good workshop is an accelerant, that real teachers exist, that paying for structure is sometimes the right move | Pretend everything has to be solo, free, and self-directed |
-| Charge what the work is worth | Apologize for charging |
+**What this site does NOT do:**
+- Treat any living or recently-deceased spiritual teacher as authority (Eckhart, Deida, Adyashanti, Mooji, etc. all named and critiqued where relevant)
+- Cheerlead any tradition (Buddhism, Advaita, Christian mysticism, etc.) as "the real one"
+- Pretend that "having a glimpse" or "an awakening experience" makes someone enlightened
+- Use spiritual aphorisms ("trust the universe," "let go and let god," "just be present")
+- Encourage retreats / sits / silent intensives as the path
+- Sell the practitioner directory as "find your teacher"
 
-**The editorial integrity check is this:** would the reader, after engaging with what we offer, feel served — or feel recruited? If the answer is "served," it's on-brand. If "recruited," it's not.
-
-The framework's enemy is the guru-as-authority pattern, the cult-of-personality pattern, the workshop-as-conversion-funnel pattern, the certificate-as-status pattern. The framework's enemy is NOT money, NOT teachers, NOT structure. Money is energy. Teachers are useful. Structure helps people show up. The framework runs through all of it.
-
-## Editorial closing structure: "Invite the animal in"
-
-Every Tantra Authority article ends with a specific closing structure, in this order:
-
-1. **The teaching close** — the article's last sober editorial paragraph, lands the framework.
-2. **`<hr>` separator.**
-3. **"And now — invite the animal in"** section heading. The tone flips from sober-editor to wild-erotic-alive. 2–3 paragraphs. The "now do it" beat. Always pointing the reader at shadow / wildness / eros / the body that wants more / ritual / the unconscious. The opposite of the article's earlier register. This is where the reader gets the permission to take the framework into their own body.
-4. **Rabbit-holes block** — `<div class="rabbit-holes">` with 5–8 related-article links. Mix of in-site articles (linked) and forthcoming articles (italicized, marked "(forthcoming)") to seed demand. Topics that recur: shadow, erotic hypnosis, the symbolic body, ritual, the voice, the slow practice, the workshop question, sex workers and lineage transparency, the unconscious, the directory, ancient practices vs neo-tantra.
-5. **Cross-link to substack** — a `<p><em>` block pointing to The Naked Mind for the first-person personal-essay version of the territory.
-6. **`<div class="cta-card">`** — standard book promo.
-
-This structure does multiple jobs at once: closes the article with energy not pedantry; opens the rabbit hole that keeps the reader on the site; seeds demand for future articles by listing them as forthcoming; funnels to substack and book.
-
-**Rabbit hole topics to seed in every article (rotate freely):**
-- The Shadow That Wants More
-- Erotic Hypnosis (working with the suggestible mind without lying to it)
-- The Symbolic Body / When Sex Starts Speaking in Pictures
-- Ritual Without Religion / Building containers that don't ask you to believe anything
-- The Voice You've Been Suppressing / Why Adults Can't Make Noise
-- Ancient Practices vs Neo-Tantra (what got dropped, what got kept, what got invented)
-- After the Workshop / What to do when the retreat ends and the work begins
-- The Vetted Practitioner Directory (when listed: a tease + link)
-- The Unconscious as Tantric Substrate
-- Power, Owning the Selves, the Erotic Imagination
-- Tantric Photography / Tantric Art / Tantric Hypnosis as legitimate sub-disciplines
-- AI Tantric Playmates / Synthetic Eros and What It Reveals About the Real Thing
-
-Articles can also cross-link to: the shop, the directory listings, specific books in the Beyond the Myth series.
+**What this site DOES do:**
+- Name what enlightenment actually is (a subtractive shift, an end-of-mythology condition, not an attainment)
+- Distinguish enlightenment from awakening experiences, dissociation, depersonalization, manic states, and the various other things that get sold as enlightenment
+- Walk readers through the specific failure modes of the spiritual industry
+- Name the financial-extraction patterns, the cult dynamics, the abuser-teachers, the corruption of every major lineage
+- Offer falsifiable language — what would update the framework's view if observed
+- Give readers tools to deprogram inherited spiritual training
+- Map the Games framework (1–8) for spiritual-seekers specifically
+- Treat enlightenment as not particularly important — the practical deliverable is *less suffering, more clarity*, not membership in an elite group
 
 ## Funnel architecture
 
 ```
-Google search → Tantra Authority article →
+Google search → Modern Enlightenment Authority article →
   email signup (Substack form) →
-  drip into The Naked Mind →
-  preorder Beyond the Myth: Definitive Guide to Modern Tantra
+  drip into The Naked Mind (already on-topic for posts 1–7) →
+  preorder Beyond the Myth: The Anatomy of Modern Enlightenment
 ```
 
-Every article ends with the same CTA card pointing to the book. Inline newsletter signup on homepage and article pages.
+The substack-pairing is unusually tight here because seven of the first eight Naked Mind essays are already directly on-topic.
 
-## Content strategy
+## Practitioner directory — modern-enlightenment-specific
 
-**Target: 30 articles in first 90 days.** Mix of:
-- Foundations articles (what tantra is, the five primitives, brief history)
-- Practice articles (specific techniques readers can do tonight)
-- Reframe articles (what tantra is NOT — why most tantric content fails)
-- Couples articles (partner practices, communication, conflict + tantra)
-- Anti-cult articles (the dark side of the tantra teacher industry — high search interest)
+Different practitioner pool than Tantra Authority's. Listings include:
 
-After 30 articles, the long tail of SEO traffic should be enough that the site self-sustains traffic. Then we focus on:
-- Featured articles (longer-form, ranking for high-volume queries)
-- Book preorder conversion
-- Email list growth
+- Secular meditation teachers (clear about secular framing)
+- Somatic-experiencing facilitators
+- Trauma-informed breathwork practitioners
+- Cognitive / mindfulness-based therapists who don't traffic in mysticism
+- Cult-recovery specialists (high demand for spiritual-bypass / cult-survivor readers)
+- Psychiatrists with experience in spiritual emergency / spiritual emergence
 
-## Seeded articles (built 2026-05-14)
+Notably, the directory **does not list** "awakening guides," "enlightenment teachers," "non-dual pointers," "Advaita teachers," or "self-realization mentors" — these category names are the giveaway of the mythology this site exists to dismantle. Practitioners doing this work under those labels are not eligible for the directory.
 
-- `articles/what-tantra-actually-is.html` — foundational, ~2200 words
-- `articles/tantric-breathing-truth.html` — practical, ~1500 words
+## Content strategy — first 30 articles
 
-Both end with the standard CTA + book funnel.
+The substack-pairing carries early content load. Each of the first 7 Naked Mind essays gets a companion editorial-voice article on Modern Enlightenment Authority, taking the personal-essay teaching and reframing it in the third-person editor voice.
+
+Then expand to:
+- Foundations articles (what enlightenment is, what it isn't, the history of the word)
+- Anti-cult / anti-guru articles (the dark side of major teachers — high search interest)
+- Practice articles (what to actually do — meditation, dismantling, falsifiability training)
+- Reframe articles (psychedelics + "awakening," neurology of "spiritual experience," the trap of monastic models)
+
+## STALE CONTENT WARNING — pre-deploy cleanup needed
+
+This folder was cloned from `tantra-authority/` to preserve the template. The `articles/`, `queue_authority/`, `directory.html`, `shop.html`, `book.html`, `about.html` all contain tantra-specific content that must be removed or replaced before this site goes live. The template structure (CSS, layout, header/footer pattern) is the part to keep.
+
+## Seeded articles (after cleanup) — top priorities to brief
+
+- `articles/what-enlightenment-actually-is.html` — foundational, parallels `what-tantra-actually-is.html`
+- `articles/the-spiritual-industry-and-how-it-works.html` — anti-industry critique
+- `articles/when-enlightenment-experiences-arent.html` — distinguishing awakening from dissociation / mania / depersonalization
+- `articles/how-to-spot-a-spiritual-cult-before-youre-in-one.html` — high SEO target
+- `articles/the-falsifiability-test-for-spiritual-claims.html` — the framework's central epistemic move
+- `articles/post-1-companion-what-people-get-wrong-about-enlightenment.html` — editorial-voice companion to substack post 1
+
+## Defensive domain consolidation map
+
+Domains in the enlightenment cluster all funnel here once canonical is live:
+
+**Already-live or DNS-set:**
+- 4hourenlightenment.com (proposed canonical)
+- 4-hour-enlightenment.com → canonical (defensive variant)
+- fourhourenlightenment.com → canonical
+- thefourhourenlightenment.com → canonical
+- spiritualshortcut.com → canonical (or its own micro-hub)
+- spiritualityhacker.com → canonical
+- spiritualmythbuster.com → canonical (URGENT renewal 2026-08-01)
+- enlightenmenthacker.com → canonical
+- hackenlightenment.com → canonical
+- hackingenlightenment.com → canonical
+- hacking-enlightenment.com → canonical
+- hackngthemind.com → canonical
+- reality-hacker.com → canonical
+- deprogramyourlife.com → canonical (URGENT renewal 2026-08-01)
+- thepathofnopath.com → canonical
+- e-awake.com → canonical
+- 1soul1.com → canonical
+- prophetenlightenment.com → canonical (URGENT renewal 2026-06-07 — decide first)
+
+Strongest defensive cluster in the portfolio.
 
 ## Open / pending
 
-- [ ] Connect newsletter forms to Substack (or ConvertKit / Buttondown — see DEPLOY.md)
-- [ ] Add the remaining 3 articles previewed on the homepage:
-  - `articles/why-most-tantric-sex-doesnt-work.html`
-  - `articles/five-body-technologies.html`
-  - `articles/tantric-practices-for-couples.html`
-- [ ] Deploy to Cloudflare Pages (see DEPLOY.md)
-- [ ] Set up custom domain (tantraauthority.com)
-- [ ] Set up redirect from tantra-authority.com
+- [ ] Pick primary domain (suggestion: 4hourenlightenment.com)
+- [ ] Clean up stale tantra articles in `articles/`
+- [ ] Write the 6 seed articles
+- [ ] Customize top-level HTML pages
+- [ ] Connect newsletter forms to Substack
+- [ ] Deploy to Cloudflare Pages
+- [ ] Wire up redirect chain from the 17 defensive domains
 - [ ] Add Cloudflare Web Analytics
-- [ ] Replicate template structure for next vertical (suggest: open-relationship-blueprint)
 
-## Notes
+## Franchise position
 
-Built as plain static HTML (no build step) for maximum speed-to-ship and zero dependency hell. When article count exceeds ~30 or content needs more structure (categories, tags, search), consider migrating to Astro or 11ty. Not urgent.
+Vertical #3 of 7. Tantra (1) → Open Relationship (2) → Modern Enlightenment (3) = the first three scaffolded. Cloning gets faster each time. Next probable order: Energy Sex Authority (book 2 — fastest reader payoff), Female Sexuality Authority, Male Sexuality Authority, Sexual Shadow Authority (capstone).
